@@ -46,7 +46,7 @@ Sensor Setup
 
 TFMini
 1) Connect TFmini LiDAR to RPi using USB-TTL converter or UART port using GPIO.
-2) If you're using a USB-TTL converter: Check Serial Port, and edit the code accordingly (e.g. ser = serial.Serial(*'/dev/ttyUSB0'*,115200,timeout = 1)
+2) If you're using a USB-TTL converter: Check Serial Port, and edit the code accordingly (e.g. *ser = serial.Serial('/dev/ttyUSB0',...)*
 
 
 Ultrasonic Ranger
