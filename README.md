@@ -79,4 +79,4 @@ Developers S. Baer, J. Chastonay, D. Reichenbach & E. Siegrist
 
 E-mail: jonas.chastonay@students.unibe.ch
 
-Copyright 2020 University of Bern. All rights reserved.
+Copyright 2021 University of Bern. All rights reserved.
