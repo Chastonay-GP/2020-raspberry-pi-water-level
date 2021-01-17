@@ -80,5 +80,3 @@ Developers S. Baer, J. Chastonay, D. Reichenbach & E. Siegrist
 E-mail: jonas.chastonay@students.unibe.ch
 
 Copyright 2020 University of Bern. All rights reserved.
-Example Program and its use are subject to a license agreement
-and are also subject to copyright, trademark, patent and/or other laws.
