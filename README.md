@@ -7,9 +7,9 @@ Comparing the two sensors based on their accuracy.
 GENERAL USAGE NOTES
 -------------------------------------------------------------------------------------------------------------------------------------
 
-- The first script enables the usage of two distance senors with a Raspberry Pi 4.
+- The first script (*sensor_measurment.py*) enables the usage of two distance senors with a Raspberry Pi 4 and saves data in .csv-files.
 
-- The second script visualises the measured values of both sensors per distance for comparison.
+- The second script (*data_visualisation.py*) visualises the measured values of both sensors per distance for all .csv-files.
 
 - The script was developed as a "Geodata analysis and modelling" seminar work - University of Bern.
 
@@ -57,8 +57,8 @@ Ultrasonic Ranger
 Scripts
 -------------------------------------------------------------------------------------------------------------------------------------
 
-- *Measurment.py*: Script for running both sensors simultainiously and saving data in .csv-file.
-- *Visualisation.py*: Script for visualisimg all created .csv-files automatically.
+- *sensor_measurment.py*: Script for running both sensors simultainiously and saving data in .csv-file.
+- *data_visualisation.py*: Script for visualisimg all created .csv-files automatically.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -66,12 +66,12 @@ Execution
 -------------------------------------------------------------------------------------------------------------------------------------
 
 For measuring:
-1) Open *Measurment.py* script in a Python-Environment
+1) Open *sensor_measurment.py* script in a Python-Environment
 2) Set filename: csvfile = "filename.csv"
 3) Run the script
 
 For visualsing the data:
-1) Open *Visualisation.py* script in a Python-Environment
+1) Open *data_visualisation.py* script in a Python-Environment
 2) Run the script
 
 
