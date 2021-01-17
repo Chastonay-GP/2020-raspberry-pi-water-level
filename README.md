@@ -13,7 +13,7 @@ GENERAL USAGE NOTES
 
 - The script was developed as a "Geodata analysis and modelling" seminar work - University of Bern.
 
-- The readme contains the prerequisites YOU MUST HAVE to run the code, the set up and contact informations to the developers.
+- The readme contains the prerequisites one needs to run the code, the set up and contact informations to the developers.
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -48,8 +48,8 @@ Ultrasonic Ranger
 Scripts
 -------------------------------------------------------------------------------------------------------------------------------------
 
--
--
+- Measurment.py
+- Visualisation.py
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -57,7 +57,7 @@ Execution
 -------------------------------------------------------------------------------------------------------------------------------------
 
 
-1) Open xxxx script in a Python-Environment
+1) Open *Measurment.py* script in a Python-Environment
 2) 
 3) Run the script
 
