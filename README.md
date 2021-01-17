@@ -27,7 +27,16 @@ Prerequisites
 - USB-TTL converter (optional)
 - Grove Base Hat for Raspberry Pi (optional)
 - Python Environment (e.g. PyCharm, Geany)
-- Packages
+- Packages:
+  * serial
+  * time
+  * csv
+  * sys
+  * os
+  * glob
+  * matplotlib
+  * statistics
+  * pandas
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -37,7 +46,7 @@ Sensor Setup
 
 TFMini
 1) Connect TFmini LiDAR to RPi using USB-TTL converter or UART port using GPIO.
-2) If you're using a USB-TTL converter -> Check Serial Port, and edit the code accordingly.
+2) If you're using a USB-TTL converter: Check Serial Port, and edit the code accordingly (e.g. ser = serial.Serial(*'/dev/ttyUSB0'*,115200,timeout = 1)
 
 
 Ultrasonic Ranger
@@ -48,19 +57,22 @@ Ultrasonic Ranger
 Scripts
 -------------------------------------------------------------------------------------------------------------------------------------
 
-- Measurment.py
-- Visualisation.py
+- Measurment.py: Script for running both sensors simultainiously and saving data in .csv-file.
+- Visualisation.py: Script for visualisimg all created .csv-files automatically.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Execution
 -------------------------------------------------------------------------------------------------------------------------------------
 
-
+For measuring:
 1) Open *Measurment.py* script in a Python-Environment
-2) 
+2) Set filename: csvfile = *"filename.csv"*
 3) Run the script
 
+For visualsing the data:
+1) Open *Visualisation.py* script in a Python-Environment
+2) Run the script
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
