@@ -1,6 +1,5 @@
 # Distance Measurement with Raspberry Pi 4
 Measuring different distances to solid and water surfaces with two different distance sensors compatible with a Raspberry Pi 4.
-Comparing the two sensors based on their accuracy.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
